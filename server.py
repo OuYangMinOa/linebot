@@ -34,15 +34,14 @@ from linebot.models import (
 app = Flask(__name__)
 
 line_bot_api = LineBotApi('wJMb06yrUCxmFh10ZQOiibHTECj\
-WHwZF1UuKjKF7NUVM53KBTTLKKjkedA5+opu0VV2LIBgmse\
-DWf0lmkVPDxQyDYiLdUb9hqVttLF0YAq0W++uFqaBuglRrs95+U\
+WHwZF1UuKjKF7NUVMBuglRrs95+U\
 9/GQThd/EbKrm5ce/xFCayhgwdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('10e397d4967b5ec122b19b33597a0a83')
+handler = WebhookHandler('10e397d4967b53597a0a83')
 
 
 ######### imgur ########################
-client_id = 'b9ae77105014a61'
-client_secret = '720fc83b0d748eb6131f987949280e15bf3a6e66'
+client_id = 'b9ae77114a61'
+client_secret = '720fc83b0d74815bf3a6e66'
 ##################################
 @app.route("/callback", methods=['POST'])
 def callback():
